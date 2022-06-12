@@ -1,0 +1,43 @@
+.App {
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+h1 {
+  margin: 24px 0;
+}
+
+img {
+  border-radius: 20px;
+  height: auto;
+  width: 50px;
+}
+
+ul li {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 16px;
+  max-width: 320px;
+  padding: 8px 32px;
+  list-style: none;
+  background-color: #fafafa;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 4px 6px;
+  margin: 0 4px 8px;
+}
+
+form textarea {
+  font-family: inherit;
+  margin-bottom: 8px;
+  padding: 4px;
+}
